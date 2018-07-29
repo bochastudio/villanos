@@ -1,0 +1,424 @@
+@import url('fuentes/stylesheet.css');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid red; */
+    font-family: 'adventureregular';
+}
+
+body{
+    overflow-x: hidden;
+}
+
+p{
+    font-size: 1em;
+    text-align: center;
+    font-weight: lighter;
+}
+
+h1{
+    font-size: 1.2em;
+    text-align: center;
+}
+
+/* Index */
+#index{
+    width: 100%;
+    height: 100vh;
+    position: static;
+}
+
+.tapa{
+    background-image: url('img/tapa-01.png');
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+
+    
+}
+
+.play {
+    position:absolute;
+    left: 48%;
+    top:40%;
+    z-index: 500;
+}
+
+.imgplay{
+    width: 100%;
+}
+
+.imgplay:hover{
+    transition-duration: 1s;
+    opacity: .5;
+}
+
+.text-1 p{
+    position: absolute;
+    width: 100%;
+    height: 45%;
+    text-align: center;
+    color: yellow;
+    top:20%;
+    text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+    font-size: 1.6em;
+    top:70%;
+}
+
+.text-1 h1{
+    font-size: 3em;
+     position: absolute;
+    width: 100%;
+    height: 45%;
+    text-align: center;
+    color: yellow;
+    top:20%;
+    text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+}
+
+
+/* joker */
+
+#joker{
+    width: 100%;
+    height: 100vh;
+    position: static;
+    
+ } 
+
+.joker{
+    width: 100%;
+    height: 100%;
+    background-image: url('img/guason-02.png');
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+    
+}
+
+
+.carta{
+    width: 100%;
+    height: 100%;
+    background-image: url('img/mano-02.png');
+    background-size: cover;
+    z-index: 2;
+    position: absolute;
+ 
+}
+
+.text-2{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.texto-c1{
+   position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url('img/textoguason-02.png');
+    background-size: cover;
+}
+
+
+.texto-joker{
+    width: 30%;
+    height: 20%;
+    color: white;
+    position: relative;
+    top: 25%;
+    left: 57%;
+}
+
+
+/*------- magneto ------*/
+
+
+#magneto{
+    width: 100%;
+    height: 100vh;
+    
+    position: static;
+        
+
+}
+
+
+#armas{
+    width: 100%;
+    height: 100%;
+    background-image: url('img/armas-03.png');
+    background-size: cover;
+    position: absolute;
+    z-index: 101;
+}
+
+.magneto{
+    width: 80%;
+    height: 100%;
+    background-image: url('img/magneto-03.png');
+    background-size: cover;
+    position: relative;
+    margin: 0 auto;
+    
+}
+
+.text-3{
+    width:100%;
+    height: 100%;
+    position: absolute;
+}
+
+
+.texto-c2{
+    width: 100%;
+    margin: 0 auto;
+    background-image: url('img/textomagneto-03.png');
+    background-size: cover;
+    height:100%;
+    position: relative;
+    color: white;
+}
+
+.texto-magneto{
+    width: 40%;
+    height: 20%;
+    color: white;
+    position: relative;
+    top: 55%;
+    margin: 0 auto;
+}
+/*------- lex-luthor --------*/
+
+#lex-luthor{
+    width: 100%;
+    height: 100vh;
+    
+    position: static;
+}
+
+.money{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url('img/billetes-04.png');
+    background-size: cover;
+}
+
+.lex-luthor{
+width: 50%;
+height: 100%;
+position: relative;
+background-image: url(img/lexluthor-04.png);
+background-size: cover;
+float: left;}
+
+
+
+.billete-ab{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+    
+}
+
+
+.billete-cara{
+    position: relative;
+    width: 50%;
+    height: 60%;
+    background-image: url('img/billetegrande-04.png');
+    background-size: cover;
+    top: 20%;
+    left: 25%;
+}
+
+.text-4{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.texto-c3{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url('img/textoluthor-04.png');
+    background-size: cover;
+   
+}
+.texto-lex{
+    width: 30%;
+    height: 20%;
+    color: white;
+    position: relative;
+    top: 44%;
+    margin: 0 auto; 
+}
+h1, p{
+    text-align: center;
+}
+h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+p{
+    font-size: 20px;
+    
+}
+
+/*------------- loky -----------*/
+
+
+#loky{
+    width: 100%;
+    height: 100vh;
+       position: static;
+}
+
+
+.nubes2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('img/nubesyrayos-05.png');
+    background-size: cover;
+}
+
+
+.piso{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('img/rayosabajo-05.png');
+    background-size: cover; 
+}
+
+.loky{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('img/loki-05.png');
+    background-size: cover;   
+}
+
+
+.text-5{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.texto-c4{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url('img/textoloki-05.png');
+    background-size: cover;
+    margin: 0 auto;}
+
+.loky-text{
+    width: 30%;
+    height: 25%;
+    color: white;
+    position: relative;
+    top: 40%;
+    margin: 0 auto; 
+}
+
+
+/*--------- harleyquinn ---------*/
+
+#harleyquinn{
+    width: 100%;
+    height: 100vh;
+    position: static;
+}
+
+.edificios{
+    width: 100%;
+    height: 100%;
+    background-image: url('img/edificios-06.png');
+    background-size: cover;
+    position: absolute;
+}
+
+.harley{
+    width: 100%;
+    height: 100%;
+    background-image: url('img/harley-06.png');
+    background-size: cover;
+    position: absolute;
+}
+
+.text-6{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.texto-c5{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url('img/textoharley-06.png');
+    background-size: cover;
+    margin: 0 auto;}
+
+.harley-text{
+    width: 30%;
+    height: 25%;
+    color: white;
+    position: relative;
+    top: 40%;
+    left: 55%;
+}
+
+/*--------- end ---------*/
+
+#end{
+    width: 100%;
+    height: 100vh;
+    position: static;
+    z-index: 300;
+}
+
+.conteiner{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.cuadrado{
+    position: relative;
+    width: 60%;
+    height: 60%;
+    margin: 0 auto;
+    top: 20%;
+    background-color: #3B3E42;
+}
+
+.textocartel{
+    width: 80%;
+    height: 80%;
+    color: white;
+    position: relative;
+    top: 30%;
+    left:10%;
+}
+
+.textocartel h1{
+    color: yellow;
+    font-size: 4em;
+    text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+}
